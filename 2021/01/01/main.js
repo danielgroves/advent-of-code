@@ -3,7 +3,7 @@ import fs from 'fs';
 
 console.log('Starting');
 
-const input = 'input.txt';
+const input = '../input.txt';
 
 var lineReader = readline.createInterface({
   input: fs.createReadStream(input)
